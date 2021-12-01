@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-weight: 600;;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+}
+
+.header-items{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 67.77px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.5;
+    max-width: 1000px;
+}
+
+.header-items .title span{
+    color: #1553F0;
+}
+
+.header-items .text {
+    font-size: 25.89px;
+    max-width: 550px;
+}
+
+input{
+    width: 350px;
+    padding: 1rem 1rem;
+    border: none;
+    background-color: #F4F7FF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.097);
+    color: #000;
+}
+
+.submit{
+    color: #fff;;
+    background: #1553F0;
+    padding: 1rem 2.6rem;
+    border: none;
+    transition: .1s linear;
+    margin-left: 15px;
+}
+
+.submit:hover{
+    background: #1553f079;
+}
+
+footer{
+    background: #1553F0;
+    max-width: 100%;
+    padding: 3rem;
+}
+
+footer .area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .area .row{
+    list-style-type: none;
+}
+
+footer .area .row i{
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    transition: .1s linear;
+    cursor: pointer;
+}
+
+footer .area .row i:hover{
+    color: #e8e8e8;
+}
+
+.contact-title{
+    margin-top: 10.5rem;
+}
+
+.message{
+    height: 100%!important;
+}
+
+@media only screen and (max-width: 992px){
+    .title{
+        font-size: 45px;
+        max-width: 600px;
+    }
+
+    .header-items .text{
+        font-size: 16px;
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 536px){
+    .home-input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .submit{
+        margin-left: 0;
+    }
+
+    .header-items{
+        height: 87vh;
+    }
+    .contact-title{
+        margin-top: 6.3rem;
+    }
+}
